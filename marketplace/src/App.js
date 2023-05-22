@@ -1,9 +1,16 @@
-import './App.css';
+import "./App.css";
+import React from "react";
+import { NavBar, Logo, Hamburger, Overview, SlideWindow } from "./components/index.js";
+import "./Hamburger.css";
 
 function App() {
   return (
     <div className="App">
-      <p>Bare bones app.</p>
+      <Logo />
+      <NavBar />
+      <Hamburger />
+      <Overview />
+      <SlideWindow />
     </div>
   );
 }
