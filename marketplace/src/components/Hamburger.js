@@ -7,6 +7,10 @@ import About from "./about.js";
 function Hamburger() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div>
       {/* Hamburger icon */}
@@ -25,13 +29,19 @@ function Hamburger() {
           <Router>
             <ul>
               <li>
-                <Link to="/modules">Modules</Link>
+                <Link to="/modules" onClick={handleLinkClick}>
+                  Modules
+                </Link>
               </li>
               <li>
-                <Link to="/mission">Mission</Link>
+                <Link to="/mission" onClick={handleLinkClick}>
+                  Mission
+                </Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about" onClick={handleLinkClick}>
+                  About
+                </Link>
               </li>
             </ul>
 
