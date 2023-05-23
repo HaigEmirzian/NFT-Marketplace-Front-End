@@ -7,3 +7,6 @@ export { default as Houses } from "./houses";
 export { default as Exchange } from "./exchange";
 export { default as Guide } from "./guide";
 export { default as Home } from "./home";
+export { default as Modules } from "./modules";
+export { default as Mission } from "./mission";
+export { default as About } from "./about";
