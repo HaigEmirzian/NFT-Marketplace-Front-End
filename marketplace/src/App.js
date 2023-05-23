@@ -1,10 +1,9 @@
 import "./App.css";
 import React from "react";
 import {
+    Home,
     Logo,
     Hamburger,
-    Overview,
-    SlideWindow,
     Houses,
     Exchange,
     Guide,
@@ -24,15 +23,13 @@ function App() {
                 </div>
 
                 <Routes>
+                    <Route exact path = "/" element={<Home/>} />
                     <Route path="/houses" element={<Houses />} />
                     <Route path="/exchange" element={<Exchange />} />
                     <Route path="/guide" element={<Guide />} />
                 </Routes>
             </Router>
-
             <Hamburger />
-            <Overview />
-            <SlideWindow />
         </div>
     );
 }

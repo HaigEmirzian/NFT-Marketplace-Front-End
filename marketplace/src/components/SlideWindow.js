@@ -1,7 +1,7 @@
 function SlideWindow() {
     return (
       <div>
-        <h2>hello</h2>
+        <h2>slidewindow</h2>
       </div>
     );
   }

@@ -6,3 +6,4 @@ export { default as SlideWindow } from "./slideWindow";
 export { default as Houses } from "./houses";
 export { default as Exchange } from "./exchange";
 export { default as Guide } from "./guide";
+export { default as Home } from "./home";
