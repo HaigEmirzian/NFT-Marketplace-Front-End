@@ -1,0 +1,29 @@
+/* dash list */
+
+.dash-list {
+    list-style-type: none;
+  }
+  
+.dash-list li:before {
+    content: "–";
+    margin-right: 5px;
+}
+
+/* numbered list e.g. 1.) */
+.custom-list {
+    list-style: none;
+    counter-reset: my-counter;
+}
+  
+.custom-list li:before {
+    content: counter(my-counter) ".)";
+    counter-increment: my-counter;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.5em;
+}
+
+/* arrow sizing */
+.arrow{
+    font-size: 48px;
+}
