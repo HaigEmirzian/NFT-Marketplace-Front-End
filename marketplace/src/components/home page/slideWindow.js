@@ -1,6 +1,8 @@
+import "./slideWindow.css";
+
 function SlideWindow() {
     return (
-      <div>
+      <div className="slideWindow-box">
         <h2>slidewindow</h2>
       </div>
     );

@@ -1,5 +1,9 @@
-/* dash list */
+/* TEMPORARY VISUAL */
+.overview-box{
+    border: 3px solid red;
+}
 
+/* dash list */
 .dash-list {
     list-style-type: none;
   }

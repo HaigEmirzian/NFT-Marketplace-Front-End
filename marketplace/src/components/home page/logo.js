@@ -1,6 +1,8 @@
+import "./logo.css"
+
 function Logo() {
   return (
-    <div>
+    <div className="logo">
       <a href="/">ChainRizz</a>
     </div>
   );

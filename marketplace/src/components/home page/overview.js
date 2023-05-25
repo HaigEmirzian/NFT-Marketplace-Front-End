@@ -2,10 +2,10 @@ import "./overview.css";
 
 function Overview() {
     return (
-        <div>
+        <div className="overview-box">
             <h2>overview page</h2>
             {/* buy component of overview component */}
-            <div class="buyComponent">
+            <div className="buyComponent">
                 <p>Buy</p>
                 <ul class="dash-list">
                     <li>USDC</li>
@@ -15,12 +15,12 @@ function Overview() {
             </div>
 
             {/* arrow between components */}
-            <div class="arrow">
+            <div className="arrow">
                 <p>&rarr;</p>
             </div>
 
             {/* process component of overview component */}
-            <div class="procComponent">
+            <div className="procComponent">
                 <p>Process</p>
                 <ul class="dash-list">
                     <li>Create an NFT of the property</li>

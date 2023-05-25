@@ -1,5 +1,5 @@
 export { default as NavBar } from "./navbar/navBar";
-export { default as Logo } from "./logo";
+export { default as Logo } from "./home page/logo";
 export { default as Hamburger } from "./hamburger menu/hamburger";
 export { default as Overview } from "./home page/overview";
 export { default as SlideWindow } from "./home page/slideWindow";

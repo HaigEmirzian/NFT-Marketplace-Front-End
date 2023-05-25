@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+
+.navbar p{
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}

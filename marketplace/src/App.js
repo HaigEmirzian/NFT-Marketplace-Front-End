@@ -12,7 +12,6 @@ import {
     Mission,
     About,
 } from "./components/index.js";
-import "./Hamburger.css";
 import { Routes, Route } from "react-router-dom";
 
 function App() {

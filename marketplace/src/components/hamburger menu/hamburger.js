@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import "./hamburger.css"
 
 function Hamburger() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,7 @@ function Hamburger() {
   };
 
   return (
-    <div>
+    <div className="menu-container">
       {/* Hamburger icon */}
       <div
         className={`hamburger ${isOpen ? "open" : ""}`}
