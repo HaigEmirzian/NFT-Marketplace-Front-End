@@ -1,12 +1,88 @@
-/* TEMPORARY VISUAL */
-.overview-box{
-    border: 3px solid red;
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .overview-box {
+      flex-wrap: wrap;
+    }
+  
+    .buyComponent,
+    .procComponent,
+    .ownComponent,
+    .first-arrow,
+    .second-arrow {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+.overview-box {
+    white-space: nowrap;
+    display: flex;  
+    justify-content: center;
+}
+
+/* components */
+.buyComponent{
+    position: relative;
+    top: 150px;
+    margin-right: 100px; 
+}
+
+.procComponent{
+    position: relative;
+    top: 150px;
+    margin-right: 100px; 
+}
+
+.ownComponent{
+    position: relative;
+    top: 150px;
+    margin-right: 100px; 
+}
+
+/* p tags */
+.buyComponent p{
+    position: relative;
+    margin: 0;
+    left: 40px;
+    font-size: 48px;
+}
+
+.procComponent p{
+    position: relative;
+    margin: 0;
+    left: 40px;
+    font-size: 48px;
+}
+
+.ownComponent p {
+    position: relative;
+    margin: 0;
+    left: 40px; 
+    font-size: 48px;
+}
+
+/* arrows */
+.first-arrow{
+    font-size: 48px;
+    position: relative;
+    top: 105px;
+    right: 20px;
+    margin-right: 20px; 
+}
+
+.second-arrow {
+    font-size: 48px;
+    position: relative;
+    top: 105px;
+    right: 60px;
+    margin-right: 20px; 
 }
 
 /* dash list */
 .dash-list {
     list-style-type: none;
-  }
+    font-size: 24px;
+}
   
 .dash-list li:before {
     content: "–";
@@ -17,6 +93,7 @@
 .custom-list {
     list-style: none;
     counter-reset: my-counter;
+    font-size: 24px;
 }
   
 .custom-list li:before {
@@ -25,9 +102,4 @@
     display: inline-block;
     width: 1em;
     margin-right: 0.5em;
-}
-
-/* arrow sizing */
-.arrow{
-    font-size: 48px;
 }
