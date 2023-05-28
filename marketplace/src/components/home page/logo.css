@@ -2,6 +2,8 @@
 
 .logo{
     position: fixed;
+    top: 25px;
+    left: 25px;
 }
 
 .logo a{
@@ -9,7 +11,7 @@
     font-family: 'Inter', sans-serif;
     color: black;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 25px;
     text-transform: capitalize;
     margin: 0 1rem;

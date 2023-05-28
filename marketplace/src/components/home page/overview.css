@@ -25,39 +25,41 @@
     position: relative;
     top: 150px;
     margin-right: 100px; 
+    left: 100px; 
 }
 
 .procComponent{
     position: relative;
     top: 150px;
-    margin-right: 100px; 
+    left: 30px; 
 }
 
 .ownComponent{
     position: relative;
     top: 150px;
-    margin-right: 100px; 
+    margin-right: 100px;
+    left: 40px;
 }
 
 /* p tags */
 .buyComponent p{
     position: relative;
     margin: 0;
-    left: 40px;
+    left: 60px;
     font-size: 48px;
 }
 
 .procComponent p{
     position: relative;
     margin: 0;
-    left: 40px;
+    left: 112px;
     font-size: 48px;
 }
 
 .ownComponent p {
     position: relative;
     margin: 0;
-    left: 40px; 
+    left: 70px; 
     font-size: 48px;
 }
 
@@ -66,7 +68,7 @@
     font-size: 48px;
     position: relative;
     top: 105px;
-    right: 20px;
+    left: 60px;
     margin-right: 20px; 
 }
 
@@ -74,7 +76,7 @@
     font-size: 48px;
     position: relative;
     top: 105px;
-    right: 60px;
+    left: 20px;
     margin-right: 20px; 
 }
 
